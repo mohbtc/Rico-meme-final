@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#11100d">
+  <title>RICO — You Have Been RICO'd</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="flash"></div>
+
+  <main class="app" id="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        RICO
+      </div>
+
+      <div class="status">
+        <span></span> LIVE
+      </div>
+    </header>
+
+    <section class="hero" id="hero">
+
+      <div class="noise"></div>
+
+      <div class="market-line line-1"></div>
+      <div class="market-line line-2"></div>
+      <div class="market-line line-3"></div>
+
+      <div class="hero-copy">
+        <div class="eyebrow">RICO MEME CONTEST</div>
+
+        <h1>
+          THE DUCK<br>
+          <span>IS WATCHING.</span>
+        </h1>
+
+        <p>One tap. One bad decision.</p>
+
+        <button id="ricoBtn">
+          <span>DO NOT PRESS</span>
+          <b>↗</b>
+        </button>
+      </div>
+
+      <div class="rico-stage" id="ricoStage">
+
+        <div class="halo"></div>
+
+        <div class="rico-shadow"></div>
+
+        <!-- Replace this placeholder with your real RICO image -->
+        <div class="rico" id="rico">
+          <div class="rico-hat"></div>
+          <div class="rico-eye eye-left"></div>
+          <div class="rico-eye eye-right"></div>
+          <div class="rico-beak"></div>
+          <div class="rico-body"></div>
+        </div>
+
+        <div class="speech" id="speech">...</div>
+
+      </div>
+
+      <div class="ticker">
+        <div id="tickerText">
+          MARKET STATUS: NORMAL
+        </div>
+      </div>
+
+    </section>
+
+    <section class="takeover" id="takeover">
+
+      <div class="warning">
+        <span>⚠</span>
+        RICO EVENT DETECTED
+      </div>
+
+      <div class="big-message">
+        <small>CONGRATULATIONS</small>
+        <h2>YOU HAVE<br><em>BEEN RICO'D.</em></h2>
+      </div>
+
+      <div class="stats">
+        <div>
+          <span>RICO ENERGY</span>
+          <strong id="energy">0%</strong>
+        </div>
+
+        <div>
+          <span>MARKET</span>
+          <strong id="market">?</strong>
+        </div>
+
+        <div>
+          <span>DUCKS</span>
+          <strong>1</strong>
+        </div>
+      </div>
+
+      <button class="replay" id="replay">
+        ↻ RUN IT AGAIN
+      </button>
+
+    </section>
+
+  </main>
+
+  <div id="particles"></div>
+
+  <div class="cursor-rico" id="cursorRico">🦆</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
